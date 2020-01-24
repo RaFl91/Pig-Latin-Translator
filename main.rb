@@ -30,4 +30,4 @@ def translate(str)
 	end
 
 end
-translate()
+translate("square")
