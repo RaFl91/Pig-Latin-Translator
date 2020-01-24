@@ -23,11 +23,11 @@ def translate(str)
 				result.push word << first_two << "ae"
 			else
 		#one consonant
-				first_letter = word.slice(0)
+				first_letter = word.slice!(0)
 				result.push word << first_letter << "ae" 
 			end
 		end
 	end
 
 end
-translate("square")
+translate("pie")
